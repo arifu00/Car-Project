@@ -7,11 +7,11 @@ import img6 from "../../../assets/images/banner/6.jpg";
 const Banner = () => {
   return (
     <div>
-      <div className="carousel h-[600px] w-full my-5">
+      <div className="carousel h-[600px] w-full rounded-xl my-5">
         {/* slide-1  */}
         <div id="slide1" className="carousel-item relative w-full">
           <img src={img1} className="w-full" />
-          <div className="absolute flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
+          <div className="absolute flex items-center h-full left-0 top-0 rounded-xl bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
             <div className="text-white w-1/2 pl-8 space-y-7 md:pl-20">
               <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold">
                 Affordable Price For Car Servicing
@@ -43,7 +43,7 @@ const Banner = () => {
         {/* slide-2  */}
         <div id="slide2" className="carousel-item relative w-full">
           <img src={img2} className="w-full" />
-          <div className="absolute flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
+          <div className="absolute flex items-center h-full left-0 top-0 rounded-xl bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
             <div className="text-white w-1/2 pl-8 space-y-7 md:pl-20">
               <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold">
                 Affordable Price For Car Servicing
@@ -75,7 +75,7 @@ const Banner = () => {
         {/* slide-3  */}
         <div id="slide3" className="carousel-item relative w-full">
           <img src={img3} className="w-full" />
-          <div className="absolute flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
+          <div className="absolute flex items-center h-full left-0 top-0 rounded-xl bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
             <div className="text-white w-1/2 pl-8 space-y-7 md:pl-20">
               <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold">
                 Affordable Price For Car Servicing
@@ -107,7 +107,7 @@ const Banner = () => {
         {/* slide-4  */}
         <div id="slide4" className="carousel-item relative w-full">
           <img src={img4} className="w-full" />
-          <div className="absolute flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
+          <div className="absolute flex items-center h-full left-0 top-0 rounded-xl bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
             <div className="text-white w-1/2 pl-8 space-y-7 md:pl-20">
               <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold">
                 Affordable Price For Car Servicing
@@ -139,7 +139,7 @@ const Banner = () => {
         {/* slide-5  */}
         <div id="slide5" className="carousel-item relative w-full">
           <img src={img5} className="w-full" />
-          <div className="absolute flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
+          <div className="absolute flex items-center h-full left-0 top-0 rounded-xl bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
             <div className="text-white w-1/2 pl-8 space-y-7 md:pl-20">
               <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold">
                 Affordable Price For Car Servicing
@@ -171,7 +171,7 @@ const Banner = () => {
         {/* slide-6  */}
         <div id="slide6" className="carousel-item relative w-full">
           <img src={img6} className="w-full" />
-          <div className="absolute flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
+          <div className="absolute flex items-center h-full left-0 top-0 rounded-xl bg-gradient-to-r from-[#151515] to-rgba(21, 21, 21, 0.00)  ">
             <div className="text-white w-1/2 pl-8 space-y-7 md:pl-20">
               <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold">
                 Affordable Price For Car Servicing
