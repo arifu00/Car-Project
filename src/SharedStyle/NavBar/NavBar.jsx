@@ -53,11 +53,21 @@ const NavBar = () => {
           Contact
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/login"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "text-pink-600 underline" : ""
+          }
+        >
+          Login
+        </NavLink>
+      </li>
     </>
   );
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className=" bg-base-100">
+      <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
